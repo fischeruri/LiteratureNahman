@@ -1,0 +1,78 @@
+﻿body {
+    font-family: 'Trebuchet MS';
+    background-color: #fdf0e7;
+    margin: auto;
+}
+.titleText {
+    margin: 40px auto;
+    font-size: 40px;
+    text-align: center;
+}
+.title2Text {
+    margin: 40px auto 20px;
+    font-size: 30px;
+    text-align: center;
+    direction:rtl;
+}
+.essayContainer {
+    width: 70%;
+    margin: 40px auto 150px;
+    background-color: gray;
+    padding: 20px 0;
+    box-shadow: 10px 15px 15px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    border-style:solid;
+    border-color: dimgray;
+    border-width:5px;
+}
+.essayText {
+    max-width: 80%;
+    margin: 20px auto;
+    font-size: 22px;
+    text-align: right;
+    direction:rtl;
+    color:white;
+}
+.storyContainer {
+    border-style: dotted;
+    width: 70%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fdf0d0;
+}
+.storyText {
+    direction: rtl;
+    text-align: right;
+    font-size: 22px;
+    margin:0;
+}
+.choiceTable{
+    margin: 40px auto;
+}
+.choiceContainer {
+    border-radius: 10px;
+    width: 200px;
+    margin: auto 30px;
+    padding: 30px;
+    height: 25px;
+    background-color: gray;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+}
+.choiceText {
+    direction: rtl;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.homeLink{
+    text-align:center;
+    font-size:25px;
+    margin: 30px auto;
+}
+.choiceOverheadText {
+    direction: rtl;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px auto;
+    color:darkred;
+}

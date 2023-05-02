@@ -1,0 +1,56 @@
+body {
+    background-color: skyblue;
+    font-family: 'Trebuchet MS';
+}
+
+div{
+    position: absolute;
+}
+
+.maint {
+    top: 25px;
+    gap: 52px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.ttext {
+    gap: 52px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.top {
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.center {
+  align-items: center;
+  left: 650px;
+  margin-left: 450px;
+  text-align: center;
+}
+
+input[type="submit"] {
+    background-color: Yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.frame{
+    width: 700px;
+    height: 300px;
+    border: 1px;
+    top: 450px;
+    position: absolute;
+}

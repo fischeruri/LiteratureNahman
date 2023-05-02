@@ -1,0 +1,99 @@
+﻿body {
+    font-family: 'Trebuchet MS';
+    background-color: #fdf0e7;
+    margin: auto;
+}
+.titleText {
+    margin: 40px auto 10px auto;
+    font-size: 40px;
+    text-align: center;
+}
+.titleSubtext{
+    margin:auto auto 50px;
+    font-size:20px;
+    text-align:center;
+}
+.categoryContainerDoron {
+    background-image: url('../media/piano.jpg');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    margin: 50px auto;
+    border-style: double;
+    border-width: 16px 0px 16px 0px;
+    border-color: #FEFBEA;
+}
+.categoryContainerIdan {
+    background-image: url('../media/how-read-website-source-code.jpg');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    margin: 50px auto;
+    border-style: double;
+    border-width: 16px 0px 16px 0px;
+    border-color: #FEFBEA;
+}
+.categoryContainerUri {
+    background-image: url('../media/book-1659717_960_720.jpg');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    margin: 50px auto;
+    border-style: double;
+    border-width: 16px 0px 16px 0px;
+    border-color: #FEFBEA;
+}
+.categoryContainerItamar {
+    background-image: url('../media/physics-1.jpg');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    margin: 50px auto;
+    border-style: double;
+    border-width: 16px 0px 16px 0px;
+    border-color: #FEFBEA;
+}
+.categoryContainerItay {
+    background-image: url('../media/water-1018808__480.jpg');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    margin: 50px auto;
+    border-style: double;
+    border-width: 16px 0px 16px 0px;
+    border-color: #FEFBEA;
+}
+.textContainer {
+    border-color: black;
+    border: dotted;
+    background-color: #E0C9A6;
+    width: 50%;
+    margin: 25px auto;
+    display:flex;
+    flex-direction:column;
+}
+.textName{
+    text-align:center;
+    font-size:35px;
+}
+.textDesc {
+    margin: 25px auto;
+    text-align: center;
+    font-size: 20px;
+    max-width:70%;
+    direction:rtl;
+}
+.textLink {
+    margin: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+.spacer{
+    flex-direction:column;
+    flex:1;
+}

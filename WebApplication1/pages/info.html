@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Idan</title>
+    <link href="../css/general.css" rel="stylesheet" />
+    <script src="../js/info.js"></script>
+</head>
+<body>
+    <!--explanation and introduction-->
+    <table class="center" id="IntroTable">
+        <tr><td>לפעמים בלימודים צריך ללמוד ולזכור המון מידע בעל פה במשף זמן קצר <br /> כאשר תלחצו על הכפתור למתה יופיע מידע על תיכנות <br /> יהיה לכם דקה לקרוא אותו ואחר כך תיבחנו על הידע שלכם במשך דקה <br /> כדי לחזור לדף הראשי תצתרכו להיבחן <br /> בהצלחה</td></tr>
+        <tr><td><button type="submit" id="showInfo" name="showInfo" onclick="ShowInfo()">התחל</button></td></tr> <!--makes IntroTable invisable and show InfoTable-->
+    </table>
+    <!--information about variables-->
+    <table class="center" id="InfoTable" style="display: none">
+        <tr><th><u>משתנים</u></th></tr>
+        <tr><th>בהמון שפות קוד קיימים משתנים. משתנים מכילים מידע שיכול להשתנה</th></tr>
+        <tr><th>קיימים המון סוגים של משתנית אך פה נסביר רק על כמה מרכזיים</th></tr>
+        <tr><td>integer(int) - מכיל מספרים שלמים <br /> string - מכיל טקסט <br /> boolean(bool) - מכיל אמת או שקר <br /> float - מכיל מספרים עשרוניים</td></tr>
+        <tr><th>קיימות המון שפות קוד אך פה נראה איך מאתחלים משתנים רק בשתי שפות</th></tr>
+        <tr><td>C#: float num = 78.42; , string name = "Donald T.";<br />python: isBool = true , num = 34</td></tr>
+        <!--<tr><td><button type="submit" id="showTest" name="showTest" onclick="Test()">התחל בחינה מוקדם</button></td></tr> <!--makes starts the test early-->
+    </table>
+    <!--test on the info above-->
+    <table class="center" id="TestTable" style="display: none">
+        <tr><th>?Python-איך מאתחלים משתנה המכיל מספר עשרוני ב</th></tr>
+        <tr><td><input type="radio" id="Q1F1" name="Q1" /><label for="Q1F1">string num = "67.3"</label><br /><input type="radio" id="Q1F2" name="Q1" /><label for="Q1F2">float num = 67.3;</label><br /><input type="radio" id="Q1T" name="Q1" /><label for="Q1T">num = 67.3</label><br /><input type="radio" id="Q1F3" name="Q1" /><label for="Q1F3">long num = 67.3;</label></td></tr>
+        <tr><th>:השלימו את המשפתים</th></tr>
+        <tr><td>.<select id="Q2" name="Q2"><option value="false">integer</option><option value="false">isBool</option><option value="true">boolean</option><option value="false">isTrue</option></select> שם המשתנה המכיל אמת או שקר הוא</td></tr>
+        <tr><td>.<select id="Q3" name="Q3"><option value="false">אמת או שקר</option><option value="false">תו</option><option value="false">מספר שלם</option><option value="true">טקסט</option></select> מכיל מידע מסוג string משתנה מסוג</td></tr>
+        <tr><th>?c#-איך מאתחלים משתנה המכיל מספר שלם ב</th></tr>
+        <tr><td><input type="radio" id="Q4F1" name="Q4" /><label for="Q4F1">integer num = 83;</label><br /><input type="radio" id="Q4T" name="Q4" /><label for="Q4T">int num = 83;</label><br /><input type="radio" id="Q4F2" name="Q4" /><label for="Q4F2">num = 83</label><br /><input type="radio" id="Q4F3" name="Q4" /><label for="Q4F3">short num = 83;</label></td></tr>
+        <!--<tr><td><button type="submit" id="endTest" name="endTest" onclick="checkTest()">הגשה</button></td></tr> <!--ends test-->
+    </table>
+    <table class="center" id="EndTable0" style="display: none">
+        <tr><th>0/4</th></tr>
+        <tr><td>לא הצלחתם לעמוד בלחץ וטעיתם בכל השאלות</td></tr>
+    </table>
+    <table class="center" id="EndTable1" style="display: none">
+        <tr><th>1/4</th></tr>
+        <tr><td>הצלחתם לעמוד בלחץ קצת וצדקתם רק בשאלה אחת</td></tr>
+    </table>
+    <table class="center" id="EndTable2" style="display: none">
+        <tr><th>2/4</th></tr>
+        <tr><td>הצלחתם לעמוד בלחץ במידה בינונית וצדקתם בחצי מהשאלות</td></tr>
+    </table>
+    <table class="center" id="EndTable3" style="display: none">
+        <tr><th>3/4</th></tr>
+        <tr><td>הצלחתם לעמוד בלחץ במידה רבה וטעיתם בשאלה אחת</td></tr>
+    </table>
+    <table class="center" id="EndTable4" style="display: none">
+        <tr><th>4/4</th></tr>
+        <tr><td>עמדתם בלחץ וצדקתם בכל השאלות</td></tr>
+    </table>
+    <table class="center" id="HomepageLink" style="display: none">
+        <tr><td><a href="homepage.html">return to homepage</a></td></tr>
+    </table>
+</body>
+</html>
