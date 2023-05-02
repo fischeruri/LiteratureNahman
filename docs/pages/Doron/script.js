@@ -1,3 +1,3 @@
 function homepage() {   
-window.open("../homepage.html", "_self");
+window.open("../Homepage.html", "_self");
 }
